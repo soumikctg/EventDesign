@@ -31,19 +31,27 @@ function renderCards(cards) {
 }
 
 
-renderCards(fakeData);
+
 
 
 function applyFilters() {
-    const eventType = eventTypeSelect.value;
-    console.log()
+    const eventType = eventTypeSelect.value.toLowerCase();
     const location = locationInput.value.toLowerCase();
 
+    console.log(location);
+    console.log(eventType);
+
     const filteredCards = fakeData.filter(card => {
-        return (location === '' || card.location.toLowerCase().includes(location)) &&
-            (eventType === '' || card.eventType === eventType);
+        const cardLocation = card.location.toLowerCase();
+        const cardEventType = card.eventType.toLowerCase();
+        
+        console.log("Card Location:", cardLocation);
+        console.log("Card Event Type:", cardEventType);
+
+        return (location === '' || cardLocation.includes(location)) &&
+            (eventType === '' || cardEventType === eventType);
     });
-    
+    console.log(filteredCards);
     renderCards(filteredCards);
 }
 
@@ -52,3 +60,4 @@ filterEvent.addEventListener('click', applyFilters);
 
 // Initial render
 
+renderCards(fakeData);
