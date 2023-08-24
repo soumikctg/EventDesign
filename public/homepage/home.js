@@ -20,8 +20,8 @@ function renderCards(cards) {
                     <p>${card.eventType}</p>
                     <p>${card.Description}</p>
             
-                    <div class="d-flex justify-content-between mb-2">
-                    <a href="#" class="btn btn-dark">Profile</a>
+                    <div class="d-flex mb-2">
+                        <a href="#" class="btn py-1 w-100 btn-primary">Profile</a>
                     </div>
                 </div>
             </div>
@@ -61,3 +61,6 @@ filterEvent.addEventListener('click', applyFilters);
 // Initial render
 
 renderCards(fakeData);
+
+
+
