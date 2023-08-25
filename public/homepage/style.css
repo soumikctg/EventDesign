@@ -29,8 +29,8 @@ body {
 .filterEvent {
     /* background: rgba(136, 147, 197, 0.499); */
     /* background: linear-gradient(131deg, rgba(136, 147, 197, 0.681) 0%, rgba(93, 199, 223, 0.664) 100%); */
-    /* background: linear-gradient(131deg, rgba(92, 112, 199, 0.536) 0%, rgba(21, 98, 117, 0.462) 100%); */
-    background-color: #8893c5c1;
+    background: linear-gradient(131deg, rgba(92, 112, 199, 0.536) 0%, rgba(21, 98, 117, 0.462) 100%);
+    /* background-color: #8893c5c1; */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
