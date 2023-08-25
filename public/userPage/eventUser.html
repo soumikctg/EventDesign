@@ -123,9 +123,9 @@
         <h1 class="text-center mb-3"> Event Requests </h1>
         <div class="row d-flex justify-content-around">
             <div class="col-md-6 p-3">
-                <div class="container bg-white rounded-3 shadow-lg p-4">
+                <div id="taskContainer" class="container bg-white rounded-3 shadow-lg p-4">
                     <h3 class="text-center mt-3 mb-4">Pending Event Requests</h3>
-                    <div class="card shadow rounded-3 mb-3">
+                    <!-- <div class="card shadow rounded-3 mb-3">
                         <div class="mt-3">
                             <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                         </div>
@@ -166,11 +166,11 @@
                                 <a href="#" class="btn btn-danger w-100">Reject</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-6 p-3">
-                <div class="container  bg-white rounded-3 shadow-lg p-4">
+                <div id="eventContainer" class="container  bg-white rounded-3 shadow-lg p-4">
                     <h3 class="text-center mt-3 mb-4">Upcoming Events</h3>
                     <div class="card shadow rounded-4 mb-3">
                         <div class="mt-3">
@@ -185,7 +185,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card shadow rounded-4 mb-3">
+                    <!-- <div class="card shadow rounded-4 mb-3">
                         <div class="mt-3">
                             <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                         </div>
@@ -223,19 +223,19 @@
                                 <a href="#" class="btn btn-secondary w-100">Details</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Previous Events -->
+    <!-- Finished Events -->
     <div class="container mt-5">
         <h1 class="text-center"> Finished Events</h1>
-        <div class="mt-5 js-flickity mb-5" data-flickity-options='{ "wrapAround": true }'>
+        <div id="cardContainer" class="mt-5 js-flickity mb-5" data-flickity-options='{ "wrapAround": true }'>
 
-            <div class="card me-4 shadow rounded-3" style="width: 30rem;">
+            <!-- <div class="card me-4 shadow rounded-3" style="max-width: 25rem;">
                 <div class="mt-3">
                     <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                 </div>
@@ -249,9 +249,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="card me-4 shadow rounded-3" style="width: 30rem;">
+            <div class="card me-4 shadow rounded-3" style="max-width: 25rem;">
                 <div class="mt-3">
                     <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                 </div>
@@ -265,8 +263,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="card me-4 shadow rounded-3" style="width: 30rem;">
+            <div class="card me-4 shadow rounded-3" style="max-width: 25rem;">
                 <div class="mt-3">
                     <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                 </div>
@@ -280,7 +277,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card me-4 shadow rounded-3" style="width: 30rem;">
+            <div class="card me-4 shadow rounded-3" style="max-width: 25rem;">
                 <div class="mt-3">
                     <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                 </div>
@@ -294,7 +291,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card me-4 shadow rounded-3" style="width: 30rem;">
+            <div class="card me-4 shadow rounded-3" style="max-width: 25rem;">
                 <div class="mt-3">
                     <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                 </div>
@@ -308,7 +305,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card me-4 shadow rounded-3" style="width: 30rem;">
+            <div class="card me-4 shadow rounded-3" style="max-width: 25rem;">
                 <div class="mt-3">
                     <h5 class="card-title text-center fs-5 fw-bold">Weddily</h5>
                 </div>
@@ -321,7 +318,7 @@
                         <a href="#" class="btn btn-dark w-100">Details</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -383,6 +380,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
