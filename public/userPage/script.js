@@ -35,7 +35,7 @@ function renderCards(cards) {
 
 
 function renderTaskCards(tasks) {
-    taskContainer.innerHTML = '';
+    taskContainer.innerHTML = `<h3 class="text-center mt-3 mb-4">Pending Event Requests</h3>`;
 
     tasks.forEach(task => {
         const cardElement = document.createElement('div');
@@ -62,7 +62,7 @@ function renderTaskCards(tasks) {
 
 
 function renderEventCards(events) {
-    eventContainer.innerHTML = '';
+    eventContainer.innerHTML = `<h3 class="text-center mt-3 mb-4">Upcoming Events</h3>`;
 
     events.forEach(event => {
         const cardElement = document.createElement('div');
