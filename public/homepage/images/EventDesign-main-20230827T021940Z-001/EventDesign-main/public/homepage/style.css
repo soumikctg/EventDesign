@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(239, 237, 237);
+}
+
+.btn {
+    background-color: #0c22e8;
+    color: white;
+}
+
+.text {
+    color: #ffffff;
+    text-shadow: 1px 1px rgb(99, 99, 99);
+}
+
+.background {
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+
+}
+
+.createPlan {
+    margin-bottom: -30px !important;
+    position: relative;
+    z-index: 2;
+
+}
+
+.filterEvent {
+    /* background: rgba(136, 147, 197, 0.499); */
+    /* background: linear-gradient(131deg, rgba(136, 147, 197, 0.681) 0%, rgba(93, 199, 223, 0.664) 100%); */
+    /* background: linear-gradient(131deg, rgba(92, 112, 199, 0.536) 0%, rgba(21, 98, 117, 0.462) 100%); */
+    background-color: #8893c5c1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.nav-color {
+    background: linear-gradient(131deg, rgba(92, 112, 199, 0.536) 0%, rgba(21, 98, 117, 0.462) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.flickity-page-dots {
+    margin-bottom: -1rem !important;
+}
+
+
