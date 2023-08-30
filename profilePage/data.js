@@ -24,7 +24,7 @@ const fakeData = [
         id: 4,
         eventName: "Weddily",
         Description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi reiciendis illo sunt tenetur laboriosam ab facere earum esse mollitia optio autem fuga doloremque eaque unde, voluptatem voluptatibus, dicta eos accusantium.",
-        location: "Dhaka",
+        location: "chittagong",
         eventType: "Birthday"
     },
 
